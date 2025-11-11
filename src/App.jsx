@@ -13,6 +13,11 @@ import {
   CertificationLevel,
   OptionalPreparation,
   Pricing,
+  ChooseYourLevel,
+  ExaminationBoard,
+  Readthelatestfrom,
+  Testimonials,
+  Footer,
 } from "./Components/index";
 
 export default function App() {
@@ -31,7 +36,12 @@ export default function App() {
       <Researchachieving />
       <CertificationLevel />
       <OptionalPreparation />
-      <Pricing/>
+      <Pricing />
+      <ChooseYourLevel />
+      <ExaminationBoard />
+      <Readthelatestfrom/>
+      <Testimonials/>
+      <Footer/>
     </>
   );
 }

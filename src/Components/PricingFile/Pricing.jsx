@@ -14,17 +14,19 @@ export default function Pricing() {
         </p>
       </div>
 
-      <div className="flex gap-10 justify-center overflow-x-auto pb-4 snap-x snap-mandatory">
+      <div className="flex gap-10 justify-center overflow-hidden pb-4 snap-x snap-mandatory">
         {pricingdata.map((data, index) => {
-          const Icon = data.icon ;
+          const Icon = data.icon;
           const Plus = data.lasticon;
 
           return (
             <div
               key={index}
-              className="flex-shrink-0 w-52 sm:w-52 md:w-52 lg:w-80 bg-[#252529]  rounded-2xl p-6 flex flex-col  items-center text-center shadow-lg  hover:shadow-[#00ffff44] "
+              className="flex-shrink-0 w-52 sm:w-52 md:w-52 lg:w-72 bg-[#252529]  rounded-2xl p-6 flex flex-col  items-center text-center shadow-lg  hover:shadow-[#00ffff44] "
             >
-              {Icon && <Icon className="text-5xl hover:text-6xl text-cyan-400 mr-52 mb-4" />}
+              {Icon && (
+                <Icon className="text-5xl hover:text-6xl text-cyan-400 mr-52 mb-4" />
+              )}
 
               <h2 className="text-2xl font-semibold mb-5">{data.title}</h2>
 
@@ -32,7 +34,9 @@ export default function Pricing() {
                 {data.pergeraf}
               </p>
 
-              {Plus && <Plus className="text-4xl mr-60 hover:text-5xl text-cyan-400 mt-auto" />}
+              {Plus && (
+                <Plus className="text-4xl mr-60 hover:text-5xl text-cyan-400 mt-auto" />
+              )}
             </div>
           );
         })}

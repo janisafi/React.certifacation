@@ -12,6 +12,11 @@ import Researchachieving from "./ResearchAchieveFile/Researchachieving";
 import CertificationLevel from "./CertificationLevelFile/CertificationLevel";
 import OptionalPreparation from "./OptionalPreparationFile/OptionalPreparation";
 import Pricing from "./PricingFile/Pricing";
+import ChooseYourLevel from "./ChooseYourLevelFile/ChooseYourLevel";
+import ExaminationBoard from "./ExaminationBoardFile/ExaminationBoard";
+import Readthelatestfrom from "./Readthelatestfromfile/Readthelatestfrom";
+import Testimonials from "./Testimonialsfile/Testimonials";
+import Footer from "./FooterFile/Footer";
 export {
   Navbar,
   Hero,
@@ -26,4 +31,9 @@ export {
   CertificationLevel,
   OptionalPreparation,
   Pricing,
+  ChooseYourLevel,
+  ExaminationBoard,
+  Readthelatestfrom,
+  Testimonials,
+  Footer,
 };

@@ -6,9 +6,7 @@ export default function Examination() {
   return (
     <section className="bg-[#1A1A1A] text-white flex justify-center items-center py-20 px-6">
       <div className="w-full max-w-[1250px] bg-[#252529] rounded-3xl shadow-2xl p-8 md:p-12">
-        {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-start sm:gap-6 mb-10">
-          {/* Step Info */}
           <div className="flex flex-col items-start -translate-y-2 group transition-all duration-300">
             <h3
               className="text-cyan-500 text-2xl  md:text-3xl font-bold mb-8
